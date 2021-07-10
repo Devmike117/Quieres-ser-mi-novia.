@@ -15,7 +15,7 @@ button.addEventListener("click", function () {
     var sex = "";
   }
 
-  inputLink.value = "http://127.0.0.1:5500/index.html" + sex + "&name=" + names;
+  inputLink.value = "https://mike538.github.io/tobemygirlfriend/?sex=" + sex + "&name=" + names;
 });
 
 buttonCopy.addEventListener("click", function(){
