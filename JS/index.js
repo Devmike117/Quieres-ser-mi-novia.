@@ -26,11 +26,11 @@ if (sex == "h") {
 
 function changeSi() {
   no.innerHTML = "No";
-  si.innerHTML = "SI";
+  si.innerHTML = "Si";
 }
 
 function changeNo() {
-  no.innerHTML = "SI";
+  no.innerHTML = "Si";
   si.innerHTML = "No";
 }
 
