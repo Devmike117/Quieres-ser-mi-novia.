@@ -17,9 +17,9 @@ var si = document.getElementById("si");
 setName.innerHTML = names;
 
 if (sex == "h") {
-  setSex.innerHTML = "novio";
+  setSex.innerHTML = "novio?";
 } else if (sex == "m") {
-  setSex.innerHTML = "novia";
+  setSex.innerHTML = "novia?";
 } else {
   setSex.innerHTML = "novia?";
 }
@@ -36,7 +36,7 @@ function changeNo() {
 
 function clickButton() {
   Swal.fire({
-    title: "Gracias x aceptar!",
+    title: "¡¡Gracias por aceptar!!",
     text: "🥰 Te hare muy feliz(ɔˆ ³(ˆ⌣ˆc) 💖",
     imageUrl: "IMG/gif.gif",
     imageWidth: 370,
