@@ -15,7 +15,7 @@ button.addEventListener("click", function () {
     var sex = "";
   }
 
-  inputLink.value = "https://mike538.github.io/tobemygirlfriend/?sex=" + sex + "&name=" + names;
+  inputLink.value = "https://mike538.github.io/Quieres-ser-mi-novia./?sex=" + sex + "&name=" + names;
 });
 
 buttonCopy.addEventListener("click", function(){
