@@ -1,4 +1,4 @@
-function getParameterByName(name) {
+rfunction getParameterByName(name) {
   name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
   var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
     results = regex.exec(location.search);
@@ -42,7 +42,7 @@ function clickButton() {
     imageWidth: 370,
     imageHeight: 300,
     imageAlt: "Gatitos dandose un besito",
-    confirmButtonText: 'ℒ♡ⓥℯ ㄚ♡ⓤ ❤‿❤',
+    confirmButtonText: 'cerrar',
   });
 }
 
