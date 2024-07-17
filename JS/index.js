@@ -1,4 +1,4 @@
-rfunction getParameterByName(name) {
+function getParameterByName(name) {
   name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
   var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
     results = regex.exec(location.search);
@@ -52,3 +52,4 @@ var siHover = si.addEventListener("mouseover", changeSi);
 var noHover = no.addEventListener("mouseover", changeNo);
 var siHover = si.addEventListener("touchstart", changeSi);
 var noHover = no.addEventListener("touchstart", changeNo);
+
